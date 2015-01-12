@@ -1,0 +1,42 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[MeX]{polski}
+\usepackage[latin2]{inputenc}% ew. utf8 lub cp1250
+\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{pdfpages}
+% Zdefiniowanie autora i~tytu³u:
+\author{Dawid}
+\title{lab}
+\frenchspacing
+\begin{document}
+% Wstawienie autora i~tytu³u do sk³adu:
+\maketitle
+% Wstawienie spisu tre¶ci:
+\tableofcontents
+\section{macierz}
+\begin{matrix}
+  a & b & c \\
+  d & e & f \\
+  g & h & i
+ \end{matrix}
+\section{tabela}
+\begin{tabular}{|2|2|}
+  \hline 
+  w1k1 & w1k2\\
+  \hline
+  w2k1 & w2k2 \\
+  \hline
+\end{tabular} 
+\section{grafika}
+\begin{figure}
+% \includegraphics{obrazek.eps}
+
+% \bibliographystyle{plain}
+% bibliography{mojaBib}
+
+% \includepdf[pages={-}]{sloneczko.pdf}
+\includegraphics[scale=0.75]{sloneczko.pdf}}
+
+\end{figure}
+\end{document}
